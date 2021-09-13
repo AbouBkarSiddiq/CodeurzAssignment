@@ -15,7 +15,7 @@ export default function WorkProcess() {
       <div className='flex justify-center items-center'>
         <Video />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 py-8' id="services">
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 py-8 lg:py-16' id="services">
         {skills.map((skill) => (
           <div className='flex flex-col justify-center items-center py-2'>
             <div className=''>
@@ -26,7 +26,7 @@ export default function WorkProcess() {
           </div>
         ))}
       </div>
-      <div id="testimonial">
+      <div className="lg:py-16" id="testimonial">
         <SimpleSlider />
       </div>
       <div>
