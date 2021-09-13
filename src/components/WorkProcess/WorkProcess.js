@@ -10,7 +10,7 @@ export default function WorkProcess() {
     <div className='flex flex-col' id="process">
       <div className='flex flex-col justify-center items-center w-screen py-16'>
         <h3 className='font-bold text-3xl py-4'>Our Work Process</h3>
-        <p className='text-2xl text-center md:w-1/2 py-4'>Was years its season was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+        <p className='text-sm md:text-xllg:text-2xl text-center md:w-1/2 py-4'>Was years its season was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
       </div>
       <div className='flex justify-center items-center'>
         <Video />
