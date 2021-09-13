@@ -5,7 +5,7 @@ import products from '../../assets/data/products'
 
 export default function Work() {
   return (
-    <div className='flex flex-col lg:py-16' id="work">
+    <div className='flex flex-col py-8 lg:py-16' id="work">
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8' style={{ backgroundColor: '#00ccff' }}>
         {
           works.map((work) => (
