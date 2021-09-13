@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <nav className="absolute z-50 w-full bg-transparent flex flex-wrap items-center justify-between px-2 py-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between" >
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start" >
+          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start cursor-pointer" >
             <Link
               className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               to="home" smooth={true} duration={1000} onClick={()=>scroll.scrollToTop()}
@@ -42,7 +42,7 @@ export default function Navbar() {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="home" smooth={true} duration={1000}
                 >
                   <span className="ml-2">Home</span>
@@ -50,7 +50,7 @@ export default function Navbar() {
               </li>
               <li className="">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="aboutus" smooth={true} duration={1000}
                 >
                   <span className="ml-2">About</span>
@@ -58,7 +58,7 @@ export default function Navbar() {
               </li>
               <li className="">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="work" smooth={true} duration={1000}
                 >
                  <span className="ml-2">Work</span>
@@ -66,7 +66,7 @@ export default function Navbar() {
               </li>
               <li className="">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="process" smooth={true} duration={1000}
                 >
                  <span className="ml-2">Process</span>
@@ -74,7 +74,7 @@ export default function Navbar() {
               </li>
               <li className="">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="services" smooth={true} duration={1000}
                 >
                  <span className="ml-2">Services</span>
@@ -82,7 +82,7 @@ export default function Navbar() {
               </li>
               <li className="">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="testimonial" smooth={true} duration={1000}
                 >
                  <span className="ml-2">testimonials</span>
@@ -90,7 +90,7 @@ export default function Navbar() {
               </li>
               <li className="">
                 <Link
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                   to="form" smooth={true} duration={1000}
                 >
                  <span className="ml-2">Contact</span>
